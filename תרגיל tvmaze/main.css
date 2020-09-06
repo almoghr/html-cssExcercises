@@ -1,0 +1,275 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-header {
+    padding:0.1px;
+    background-color: #3f3f3f;
+    max-width: width 1300px;
+}
+
+.container {
+        max-width: 1300px;
+        margin:0 auto;
+        text-decoration: none;    
+}
+
+
+.bottom-container {
+    background-color: #3C948B;
+}
+
+.sub-list-nav {
+    display: inline-block;
+}
+
+.list-nav {
+    display: inline-block;
+    position: relative;
+}
+
+.sub-menu{
+    padding: 0px;
+    list-style: none;
+    display:none;
+    float: left;
+    position: absolute;
+    top:100%;
+    background-color: #3C948B;
+    min-width: 200px;
+    z-index: 9;
+
+}
+
+.list-nav a, .sub-list-nav {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color:white; 
+    padding: 0.9rem 1.1rem;
+    margin: 0px;
+}
+
+
+li:hover>a{ 
+    background-color: #3f3f3f;
+}
+
+.logo img {
+    size: 80%;
+    max-height: 50px;
+    margin:0px 0px 10px 0px;
+    float:left
+}
+
+form {
+    margin:15px 50px;
+    padding-top:5px;
+    text-align: center;
+}
+.search-top-header{
+    height:38px;
+}
+
+.input {
+    width: 50%;
+    height:38px;
+    border-radius: 20px 0px 0px 20px;
+    border-style: none;
+    font-size: 18px;
+    padding: 0px 8px;
+    vertical-align:middle;
+    outline: 0;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+.search-button {
+    width:100px;
+    height:38px;
+    border-radius: 0px 20px 20px 0px;
+    border-style: none;
+    background-color: #3c948b;
+    color:white;
+    vertical-align: middle;
+    font-size: 18px;
+    outline: 0;
+    cursor: pointer;
+    transition: background-color 400ms ease-in-out;
+}
+
+.search-button:hover {
+    background-color: #71c5bd
+}
+
+.site-membership {
+    float:right;
+}
+
+.login {
+    text-decoration: none;
+    color:white;
+    margin:10px;
+    font-size:30px;
+}
+
+.login:hover{
+    color:#71c5bd;
+}
+
+.register {
+    text-decoration: none;
+    color:white;
+    margin:10px;
+    font-size:30px;
+
+}
+
+.register:hover {
+    color:#71c5bd;
+}
+
+.list-nav:hover .sub-menu{
+    display: block;
+}
+
+.tooltip{
+    background-color: black;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 60%;
+    text-align: center;
+    display: block;
+    height: 50px;
+    width:  50px;
+    font-size: 16px;
+    line-height:3;
+    transition: background-color 400ms ease-in-out;
+    z-index: 9;
+}
+
+
+.tooltip:hover{
+    background-color: white;
+}
+
+
+
+
+.pop-up{
+    position: absolute;
+    bottom:50px;
+    right:1px;
+    background-color: gray;
+    min-width: 150px;
+    min-height: 200px;
+    border-radius: 20px;
+    display: none;
+    
+}
+
+.tooltip:hover .pop-up{
+display: block;}
+
+
+.shows {
+    display: block;
+    max-width: 30px;
+    margin:10px;
+}
+
+.show-block img {
+    margin:20px 0px;
+}
+
+.one-block{
+    margin: 20px;
+}
+
+.show-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.show-block-link {
+    background-color: #3C948B;
+    
+
+}
+.show-block img{
+margin:0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+
+}
+
+.one-block {
+    margin: 20px 15px;
+}
+
+
+.container>h2{
+    position: relative;
+    left: 25px;
+    top: 10px;
+
+}
+
+.show-link{
+    text-align: center;
+    background-color: #3C948B;
+    height: 40px;
+    padding-top: 8px;
+    position: relative;
+    bottom: 3px;    
+}
+
+.show-link>a{
+    text-decoration: none;
+    color:#b9e3de;
+    
+}
+
+.show-link a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.one-block a{
+    transition: ease 0.3s;
+}
+
+.rate {
+    background-color: #3C948B;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 2px;
+}
+
+.rate a{
+    color:#b9e3de;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.star, .heart{
+    color:#b9e3de;
+    transition: ease 0.3s;
+    
+}
+
+.star:hover, .heart:hover{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-areas:
+        "menu menu menu"
+        "auth logo search";
+    grid-template-columns: 150px 100px 1fr;
+}
+
+.logo {
+    grid-area: logo;
+    background-color: green;
+}
+
+.search {
+    grid-area: search;
+    background-color: hotpink;
+}
+
+.auth {
+    grid-area: auth;
+    background-color: indigo;
+}
+
+.nav-menu {
+    grid-area: menu;
+    background-color: dodgerblue;
+}

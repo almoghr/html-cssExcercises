@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex exercise</title>
+    <script src="https://kit.fontawesome.com/5e4138ced7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    <div class = "row app">
+        <div class ="column1">
+            <div class="box1">box 1</div>
+            <div class="box2">box 2</div>
+         </div>
+         <div class="text">
+            <div>text</div>
+        </div>    
+    </div>
+    <style>
+
+        * {
+            padding:0px;
+            margin:0px;
+            max-width: 400px;
+            min-height: 200px;
+        }
+
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        .column1 {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .column1 > *{
+            flex: 1;
+        }
+        .text{
+            flex: 1;
+            background-color: gray;
+            display: flex;
+            justify-content: center;
+        }
+
+        .box1{
+            background-color: slateblue;
+            display: flex;
+            justify-content: center;
+            ;
+        }
+
+        .box2{
+            background-color: slategray;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</body>
+</html>

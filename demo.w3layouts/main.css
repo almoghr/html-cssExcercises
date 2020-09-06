@@ -1,0 +1,33 @@
+
+
+header {
+    background: indianred;
+    height: 85px;
+}
+
+button{
+    border-style: none;
+    background: none;
+    
+}
+
+span{
+    color:white;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.back-button{
+    float: left;
+}
+
+.buy-now-button{
+    float: right;
+}
+
+.download-div{
+   text-align: center;
+}

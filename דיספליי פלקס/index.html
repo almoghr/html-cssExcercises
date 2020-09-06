@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex exercise</title>
+    <script src="https://kit.fontawesome.com/5e4138ced7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    <nav class ="menu">
+        <a href="#" class="menu-items">home</a>
+        <a href="#" class="menu-items">about</a>
+        <a href="#" class="menu-items">products</a>
+        <a href="#" class="menu-items contacts">contact</a>
+    </nav>
+    <style>
+
+        * {
+            padding:0px;
+            margin:0px;
+        }
+        nav {
+            background-color: #4a4b86;
+            display: flex;
+            justify-content: flex-start;   
+        }
+
+        .contacts{
+            margin-left: auto;
+        }
+
+        .menu-items{
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            padding: 15px;
+            transition: ease-in-out 400ms;
+        }
+
+        .menu-items:hover{
+            background-color: black;
+        }
+    </style>
+</body>
+</html>

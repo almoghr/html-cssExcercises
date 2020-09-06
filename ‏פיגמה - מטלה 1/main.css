@@ -1,0 +1,498 @@
+*{
+    margin: 0 ;
+    padding: 0;
+} 
+
+body{
+    width: 100%;
+}
+header{
+    max-height: 799px;
+}
+
+header > img{
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+}
+
+
+.white-music-symbol > img{
+    position: absolute;
+    top: 16px;
+    left: 386px;
+    max-height: 48px;
+    max-width: 48px;
+}
+
+.words-on-header{
+    position: relative;
+    bottom: 490px;
+    text-align: center;
+    
+}
+
+.words-on-header > h1{
+    letter-spacing: 20px;
+    color: white;
+}
+
+.words-on-header > h2{
+    letter-spacing: 10px;
+    color: white;
+}
+
+.learn-more > a{
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 14.7px 23.9px 16.1px 23.9px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 6px;
+    min-width: 172px;
+    max-height: 44px;
+}
+
+.learn-more > a:hover{
+    text-decoration: underline;
+}
+
+.inside-body{
+    text-align: center;
+    line-height: 2;
+    position: relative;
+    min-height: 600px;
+}
+
+.clear{
+    clear: both;
+}
+
+.inside-body > img{
+    min-width: 153px;
+    max-width: 153px;
+    max-height: 80px;
+    min-height: 80px;
+    margin: 166px 0px 83px 0px;
+    
+
+}
+
+.inside-body > p{
+    max-width: 636px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.our-services{
+    background-color: #f4f4f4;
+    max-height: 1000px;
+    min-height: 1000px;
+    text-align: center;
+    width: 100%;
+}
+
+.our-services > img{
+    text-align: center;
+    margin: 84px 0px 31px 0px;
+}
+
+.our-services-head  {
+    letter-spacing: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0px 0px 23px 0px;
+}
+
+.our-services-text{
+    max-width: 850px;
+    min-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 0px 0px 72px 0px;
+}
+
+.top-feature-block{
+    max-width: 274px;
+    min-width: 274px;
+    max-height: 373px;
+    min-height: 353px;
+    background-color: white;
+    padding: 0px 12px 0px 12px;
+    margin: 0px 12px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.top-feature-block > img{
+    padding: 41px 0px 0px 0px;
+}
+
+.top-feature-block > h3{
+    margin: 24px 0px 0px 0px;
+}
+
+.top-feature-block > p {
+    padding:  60px 32px 21px 32px;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+}
+
+.div-arranger, .div-arranger2{
+    display: flex;
+    justify-content: center;
+}
+
+.printer{
+    padding-bottom: 24px;
+}
+
+.roller{
+    margin-bottom: -5px;
+}
+
+.screen{
+    margin-bottom: 7px;
+}
+
+.mobile{
+    margin-bottom: 10px;
+}
+
+.performance{
+    max-height: 220px;
+    min-height: 220px;
+    margin-top: 24px;
+    max-width: 274px;
+    min-width: 274px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    background-color: white;
+    text-align: left;
+    margin: 10px 24px;
+    
+}
+
+.performance > p{
+    margin: 7px 0px 10px 16px;
+}
+
+.rectangle-blue-1{
+    width: 242px;
+}
+
+.rectangle-blue-1 , .rectangle-yellow-1{
+    margin: 0px 16px;
+    background-color: #f3f3f3;
+    display: inline;
+}
+
+.rectangle-yellow-1{
+    position: relative;
+    bottom: 18px;
+    margin: 0px 16px;
+    width: 207px;
+}
+.rectangle-yellow-2{
+    position: relative;
+    bottom: 17px;
+    margin: 0px 16px;
+    width: 215px;
+}
+.rectangle-yellow-3{
+    position: relative;
+    bottom: 18px;
+    margin: 0px 16px;
+    width: 230px;
+}
+.rectangle-yellow-4{
+    position: relative;
+    bottom: 18px;
+    margin: 0px 16px;
+    width: 217px;
+}
+.rectangle-yellow-5{
+    position: relative;
+    bottom: 17px;
+    margin: 0px 16px;
+    width: 207px;
+}
+.rectangle-yellow-6{
+    position: relative;
+    bottom: 18px;
+    margin: 0px 16px;
+    width: 230px;
+}
+.rectangle-yellow-7{
+    position: relative;
+    bottom: 18px;
+    margin: 0px 16px;
+    width: 217px;
+}
+.rectangle-yellow-8{
+    position: relative;
+    bottom: 17px;
+    margin: 0px 16px;
+    width: 228px;
+}
+.rectangle-yellow-9{
+    position: relative;
+    bottom: 18px;
+    margin: 0px 16px;
+    width: 207px;
+}
+.rectangle-yellow-10{
+    position: relative;
+    bottom: 18px;
+    margin: 0px 16px;
+    width: 217px;
+}
+.rectangle-yellow-11{
+    position: relative;
+    bottom: 17px;
+    margin: 0px 16px;
+    width: 199px;
+}
+.rectangle-yellow-12{
+    position: relative;
+    bottom: 18px;
+    margin: 0px 16px;
+    width: 219px;
+}
+
+.black-with-nums{
+    background-color: #0B0B0B;
+    height: 241px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.feature-num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    margin-top: 88px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 274px;
+    height: 71px;
+    
+}
+
+.our-portfolio{
+    max-height: 1000px;
+    min-height: 1000px;
+    text-align: center;
+    width: 100%;
+}
+.our-portfolio > img{
+    text-align: center;
+    margin: 84px 0px 31px 0px;
+}
+
+.our-portfolio-head  {
+    letter-spacing: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0px 0px 23px 0px;
+}
+
+.our-portfolio-text{
+    max-width: 850px;
+    min-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 0px 0px 93px 0px;
+}
+
+.portfolio-rectangle{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    max-width: 1168px;
+    margin-left: 376px;
+    z-index: -1;
+    letter-spacing: 5px;
+}
+
+
+.picture-in-the-middle{
+    position: relative;
+    left: -20px;
+    bottom: 90px;
+    z-index: 8888888;
+}
+
+.six-pictures{
+    display: flex;
+    position: relative;
+}
+
+.inside-rectangle{
+    position: absolute;
+    opacity: 1;
+    top: 45px;
+    left: 680px;
+    min-width: 240px;
+    max-width: 240px;
+    min-height: 258px;
+}
+
+.inside-white-rectangle{
+    position: absolute;
+    opacity: 1;
+    top: 76px;
+    left: 650px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 190px;
+}
+
+.doe-branding{
+    position: absolute;
+    top: 130px;
+    left: 735px;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.doe-branding-text{
+    position: absolute;
+    top: 170px;
+    left: 690px;
+    min-width: 220px;
+    max-width: 220px;
+    letter-spacing: 0.05em;
+    font-size: 12px;
+    line-height: 1.8;
+}
+.like-what-you-see{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:  100px;
+    
+}
+.like-what-you-see > a{
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+        background-color: yellow;
+        padding: 14.7px 23.9px 16.1px 23.9px;
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 6px;
+        font-weight: 600;
+    }
+    
+.like-what-you-see > a:hover{
+        text-decoration: underline;
+}
+
+.background-img-video{
+    background-size: contain;
+    width: 100%;
+    height: 380px;
+    min-width: 1920px;
+    margin-bottom: 0px;
+}
+
+.background-img-video > a{
+    position: relative;
+    bottom: 210px;
+    min-width: 371px;
+    max-width: 371px;
+    max-height: 76px;
+    min-height: 76px;
+}
+
+.our-team{
+    text-align: center;
+    width: 100%;
+}
+.our-team > img{
+    text-align: center;
+    margin: 84px 0px 31px 0px;
+}
+
+.our-team-head  {
+    letter-spacing: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0px 0px 23px 0px;
+}
+
+.our-team-text{
+    max-width: 850px;
+    min-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 0px 0px 93px 0px;
+}
+
+.people-images-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.people-images{
+    display: flex;
+    min-width: 220px;
+    max-width: 220px;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+.one-block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    max-height: 520px;
+}
+
+.JOHN-DOE{
+    position: relative;
+    bottom: 60px;
+    opacity: 0.8;
+    background-color: yellow;
+    height: 60px;
+    text-align: center;
+    line-height: 3.5;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+}
+
+.people-images-block-text{
+    position: relative;
+    bottom: 45px;
+}
+
+.free-spirit{
+    height: 275px;
+}
+
+.free-spirit-text{
+    height: 81px;
+    width: 402px;
+    position: relative;
+    
+}

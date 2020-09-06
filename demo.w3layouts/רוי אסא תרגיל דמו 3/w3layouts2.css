@@ -1,0 +1,411 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    margin: auto;
+}
+
+.container {
+    background-color: #0D1326;
+    height: 50px;
+    max-width: 2000px;
+}
+
+.back{
+    color: darkgray;
+    display: flex;
+    float: left;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.4s ease-in-out;
+    cursor: pointer;
+    opacity: .8;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.left {
+    font-weight: 900;
+    font-size: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+    display: flex;
+}
+
+.back:hover {
+    color:  white;
+}
+
+.download {
+    float: right;
+    text-decoration: none;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: darkgray;
+    opacity: .8;
+    cursor: pointer;
+    transition: color 0.4s ease-in-out;
+}
+
+.down {
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.download:hover {
+    color: white;
+}
+
+.download-img {
+    vertical-align: middle;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.buy {
+    text-decoration: none;
+    float: right;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 15px;
+    color: darkgray;
+    opacity: .8;
+    cursor: pointer;
+    transition: color 0.4s ease-in-out;
+
+}
+
+.buy:hover {
+    color: white;
+}
+
+.cart {
+    margin-right: 10px;
+    margin-top: 2px;
+    color: blue;
+}
+
+
+.forest {
+    width: 100%;
+    height: 652px;
+}
+
+.middle1 {
+    position: absolute;
+    bottom: 450px;
+    margin-left: 200px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: flex;
+    font-size: 17px;
+    font-family: Lato, sans-serif;
+}
+
+.explore, .amplify {
+    margin-left: 40px;
+}
+
+.middle2 {
+}
+
+.middle2 {
+display: flex;
+position: absolute;
+color: white;
+bottom: 390px;
+margin-left: 200px;
+font-family: Lato, sans-serif;
+font-weight: 600;
+font-size: 32px;
+}
+
+.nature {
+    margin-left: 5px;
+    color: rgb(34, 208, 149);
+    margin-left: 5px;
+    color: rgb(34, 208, 149);
+    text-shadow: 5px 4px 3px black;
+
+}
+
+.gibrish {
+    position: absolute;
+    color: white;
+    bottom: 310px;
+    margin-left: 200px;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px
+}
+
+.middle3 {
+    position: absolute;
+    color: white;
+    margin-left: 235px;
+    bottom: 260px;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    display: flex;
+}
+
+.bla1 {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.bla2 {
+    margin-left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.bla1:active {
+    font-size: 30px;
+}
+
+.bla2:active {
+    font-size: 40px;
+}
+
+.in-between {
+    height: 200px;
+    display: flex;
+    float: left;
+}
+
+.easy {
+    position: relative;
+    top: 145px;
+    left: 1130px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: Lato, sans-serif;
+}
+
+.container3 {
+    display: flex;
+    height: 100%;
+    width: 1000px;
+    list-style-position: inside;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.boxes {
+    list-style-position: inside;
+    display: flex;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    left: 150px;
+    padding-left: 5px;
+    padding-top: 5px;
+    list-style: none;
+    
+}
+
+.boxes2 {
+    list-style-position: inside;
+    display: flex;
+    float: left;
+    position: absolute;
+    overflow: hidden;
+    top: 300px;
+    width: 1000px;
+    height: 270px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+    
+
+.box1 {
+    height: 35%;
+    position: relative;
+    margin-right: 25px;
+    box-shadow: 1px 1px 10px 1px grey;
+    width: 330px;
+    padding: 25px;
+
+}
+
+.icon-list {
+    font-weight: 600;
+    color: #777;
+    font-size: 40px;
+}
+
+.box-head {
+    margin: 28px 0;
+    color: #22d095;
+    font-size: 23px;
+    font-family: Lato, sans-serif;
+}
+
+.blank {
+    margin-left: 10px;
+    color: black;
+    font-family: Lato, sans-serif;
+}
+
+.gibrish2 {
+    left: 27px;
+    font-family: Lato, sans-serif;
+}
+
+.box2 {
+    height: 35%;
+    position: relative;
+    margin-right: 25px;
+    box-shadow: 1px 1px 10px 1px grey;
+    width: 330px;
+    padding: 25px;
+}
+
+.icon-mountain {
+    font-weight: 600;
+    color: #777;
+    font-size: 60px;
+}
+
+.ready-pages {
+    margin-top: 12px;
+    margin-bottom: 30px;
+    color: #22d095;
+    font-size: 23px;
+    font-family: Lato, sans-serif;
+}
+
+.gibrish3 {
+    left: 27px;
+    font-family: Lato, sans-serif;
+}
+
+.box3 {
+    height: 35%;
+    position: relative;
+    box-shadow: 1px 1px 10px 1px grey;
+    width: 330px;
+    margin-right: 15px;
+    padding: 25px;
+}
+
+.icon-users {
+    font-weight: 600;
+    color: #777;
+    font-size: 60px;
+}
+
+.startup {
+    margin-top: 12px;
+    margin-bottom: 30px;
+    color: #22d095;
+    font-size: 23px;
+    font-family: Lato, sans-serif;
+}
+
+.gibrish4 {
+    left: 27px;
+    font-family: Lato, sans-serif;
+}
+
+.box4 {
+    position: relative;
+    margin-right: 25px;
+    width: 330px;
+    box-shadow: 1px 1px 10px 1px grey;
+    padding: 25px;
+}
+
+.icon-book {
+    font-weight: 600;
+    color: #777;
+    font-size: 60px;
+}
+
+.take-comfort {
+    margin-top: 12px;
+    margin-bottom: 30px;
+    color: #22d095;
+    font-size: 23px;
+    font-family: Lato, sans-serif;
+}
+
+.gibrish5 {
+    left: 27px;
+    font-family: Lato, sans-serif;
+}
+
+.box5 {
+    position: relative;
+    margin-right: 25px;
+    width: 330px;
+    box-shadow: 1px 1px 10px 1px grey;
+    padding: 25px;
+    right: 3px;
+}
+
+.icon-briefcase {
+    font-weight: 600;
+    color: #777;
+    font-size: 60px;
+}
+
+.inclusion {
+    margin-top: 12px;
+    margin-bottom: 30px;
+    color: #22d095;
+    font-size: 23px;
+    font-family: Lato, sans-serif;
+}
+
+.gibrish6 {
+    left: 27px;
+    font-family: Lato, sans-serif;
+}
+
+.box6 {
+    position: relative;
+    width: 330px;
+    box-shadow: 1px 1px 10px 1px grey;
+    padding: 25px;
+}
+
+.icon-phone {
+    font-weight: 600;
+    color: #777;
+    font-size: 60px;
+    transform: rotate(90deg);
+}
+
+.support {
+    margin-top: 12px;
+    margin-bottom: 30px;
+    color: #22d095;
+    font-size: 23px;
+    font-family: Lato, sans-serif;
+}
+
+.gibrish7 {
+    left: 27px;
+    font-family: Lato, sans-serif;
+}
